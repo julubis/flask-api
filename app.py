@@ -1,7 +1,7 @@
 from flask import Flask, request
 from flask_restful import Resource, Api
 from time import time
-import requests, db, bot
+import requests, bot
 
 app = Flask(__name__)
 api = Api(app)
